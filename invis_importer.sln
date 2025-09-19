@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_usermode", "test_usermode\test_usermode.vcxproj", "{8574A5B1-8C14-41D5-ADEA-C09DB03F4F89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_kernelmode", "test_kernelmode\test_kernelmode.vcxproj", "{F598D552-2C7F-F444-F4E6-9C70453D788A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8574A5B1-8C14-41D5-ADEA-C09DB03F4F89}.Debug|x64.ActiveCfg = Debug|x64
+		{8574A5B1-8C14-41D5-ADEA-C09DB03F4F89}.Debug|x64.Build.0 = Debug|x64
+		{8574A5B1-8C14-41D5-ADEA-C09DB03F4F89}.Debug|x86.ActiveCfg = Debug|Win32
+		{8574A5B1-8C14-41D5-ADEA-C09DB03F4F89}.Debug|x86.Build.0 = Debug|Win32
+		{8574A5B1-8C14-41D5-ADEA-C09DB03F4F89}.Release|x64.ActiveCfg = Release|x64
+		{8574A5B1-8C14-41D5-ADEA-C09DB03F4F89}.Release|x64.Build.0 = Release|x64
+		{8574A5B1-8C14-41D5-ADEA-C09DB03F4F89}.Release|x86.ActiveCfg = Release|Win32
+		{8574A5B1-8C14-41D5-ADEA-C09DB03F4F89}.Release|x86.Build.0 = Release|Win32
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Debug|x64.ActiveCfg = Debug|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Debug|x64.Build.0 = Debug|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Debug|x64.Deploy.0 = Debug|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Debug|x86.ActiveCfg = Debug|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Debug|x86.Build.0 = Debug|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Debug|x86.Deploy.0 = Debug|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Release|x64.ActiveCfg = Release|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Release|x64.Build.0 = Release|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Release|x64.Deploy.0 = Release|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Release|x86.ActiveCfg = Release|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Release|x86.Build.0 = Release|x64
+		{F598D552-2C7F-F444-F4E6-9C70453D788A}.Release|x86.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {604BA993-B0D0-418C-A0E6-28520D1AF3EB}
+	EndGlobalSection
+EndGlobal
